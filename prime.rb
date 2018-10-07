@@ -7,6 +7,11 @@ def prime?(num)
   range = (1..num)
   range_array << range
   
-  
+  range_array.each do |i|
+    count = 0 
+    if num % i == 0 
+      count += 1 
+    end
+    if count > 2 ? false : true
   
 end 
