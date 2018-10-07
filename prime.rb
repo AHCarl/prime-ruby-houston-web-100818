@@ -13,5 +13,6 @@ def prime?(num)
       count += 1 
     end
     if count > 2 ? false : true
+    end
   end
 end 
