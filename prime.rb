@@ -4,13 +4,12 @@ def prime?(num)
   end
   
   range_array =* (1..num)
-
+  count = 0
   range_array.each do |i|
-    count = 0 
     if num % i == 0 
       count += 1 
     end
-    if count > 2 ? false : true
-    end
   end
+  if count > 2 ? false : true
+    end
 end 
