@@ -10,6 +10,6 @@ def prime?(num)
       count += 1 
     end
   end
-  if count > 2 ? false : true
+  if count > 2 ? return false : return true
     end
 end 
