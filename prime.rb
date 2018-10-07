@@ -3,10 +3,8 @@ def prime?(num)
     return false 
   end
   
-  range_array = []
-  range = (1..num)
+  range_array =* (1..num)
 
-  
   range_array.each do |i|
     count = 0 
     if num % i == 0 
