@@ -4,5 +4,5 @@ def prime?(num)
   end
   
   range = (1..num)
-  
+  [] << range
 end 
