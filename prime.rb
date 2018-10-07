@@ -3,6 +3,10 @@ def prime?(num)
     return false 
   end
   
+  range_array = []
   range = (1..num)
-  [] << range
+  range_array << range
+  
+  
+  
 end 
