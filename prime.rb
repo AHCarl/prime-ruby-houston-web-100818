@@ -5,7 +5,7 @@ def prime?(num)
   
   range_array = []
   range = (1..num)
-  range_array << range
+
   
   range_array.each do |i|
     count = 0 
